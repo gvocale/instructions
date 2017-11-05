@@ -52,7 +52,7 @@ Edit `.angular-cli.json`
       "scss/styles.scss"
     ],
       
-Edit `webpack.config.js`
+Edit `webpack.config.js` all instances of `src/styles.css` into `src/scss/styles.scss`.
 
     "styles": [
       "./src/scss/styles.scss"
