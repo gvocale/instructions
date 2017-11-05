@@ -63,6 +63,12 @@ Create subfolder structure in `src/scss`
     
 Import them in `src/scss/styles.scss`
 
+    @import 'base/base.scss';
+    @import 'mixins/mixins.scss';
+    @import 'tools/tools.scss';
+    @import 'variables/variables.scss';
+
+
 
 ### Run app
 `npm start`
