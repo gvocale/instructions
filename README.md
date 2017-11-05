@@ -40,7 +40,7 @@ Then your components can use pug
 
 
 ### SCSS
-Move `style.scss` to `src/scss/style.scss`
+Move `styles.scss` to `src/scss/styles.scss`
 
 Edit `.angular-cli.json`
 
@@ -53,6 +53,15 @@ Edit `webpack.config.js`
     "styles": [
       "./src/scss/styles.scss"
     ]
+    
+Create subfolder structure in `src/scss`
+
+    scss/base
+    scss/mixins
+    scss/tools
+    scss/variables
+    
+Import them in `src/scss/styles.scss`
 
 
 ### Run app
