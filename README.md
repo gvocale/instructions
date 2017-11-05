@@ -2,19 +2,23 @@
 ## Instructions
 
 ### Set globally to SCSS
-`ng set defaults.styleExt=scss --global`
+
+    ng set defaults.styleExt=scss --global
 
 ### Create project
-`ng new my-dream-app
-cd my-dream-app`
+
+    ng new my-dream-app
+    cd my-dream-app
 
 
 ### Expand webpack config file
-`ng eject`
+
+    ng eject
 
 
 ### Install Pug
-`npm i -D pug pug-html-loader`
+
+    npm i -D pug pug-html-loader
 
 Edit webpack.config.js in root of of the project and add:
 
