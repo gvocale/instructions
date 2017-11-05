@@ -72,3 +72,7 @@ Import them in `src/scss/styles.scss`
 
 ### Run app
 `npm start`
+
+
+### Generate components
+`ng g component navbar`
