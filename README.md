@@ -1,4 +1,4 @@
-# Angular 4
+# Angular
 ## Instructions
 
 ### Set globally to SCSS
