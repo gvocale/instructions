@@ -18,24 +18,24 @@ cd my-dream-app`
 
 Edit webpack.config.js in root of of the project and add:
 
-`module.exports = {
-  module: {
-    rules: [
-      {
-        test: /\.(pug|jade)$/,
-        use: ['pug-ng-html-loader']
+    module.exports = {
+      module: {
+        rules: [
+          {
+            test: /\.(pug|jade)$/,
+            use: ['pug-ng-html-loader']
+          }
+        ]
       }
-    ]
-  }
-}`
+    }
 
 Then your components can use pug
 
-`@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.pug',
-  styleUrls: ['./app.component.styl']
-})`
+    @Component({
+      selector: 'app-root',
+      templateUrl: './app.component.pug',
+      styleUrls: ['./app.component.styl']
+    })
 
 
 
@@ -43,9 +43,14 @@ Then your components can use pug
 Move `style.scss` to `src/scss/style.scss`
 
 Edit `.angular-cli.jason`
-`      "styles": [
+      "styles": [
         "scss/styles.scss"
-      ],`
+      ],
+      
+Edit `webpack.config.js`
+    "styles": [
+      "./src/scss/styles.scss"
+    ]
 
 
 ### Run app
