@@ -18,7 +18,7 @@
 
 ### Install Pug
 
-    npm i -D pug pug-html-loader
+    npm i -D pug pug-ng-html-loader
 
 Edit webpack.config.js in root of of the project and add:
 
