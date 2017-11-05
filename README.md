@@ -42,10 +42,10 @@ Then your components can use pug
 ### SCSS
 Move `style.scss` to `src/scss/style.scss`
 
-Edit `.angular-cli.jason`
-      "styles": [
-        "scss/styles.scss"
-      ],
+Edit `.angular-cli.json`
+    "styles": [
+      "scss/styles.scss"
+    ],
       
 Edit `webpack.config.js`
     "styles": [
